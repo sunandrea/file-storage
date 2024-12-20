@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { cn, convertFileToUrl, getFileType } from "@/lib/utils";
 import Image from "next/image";
-import React, { MouseEvent, useCallback, useState } from "react";
+import React, { useCallback, useState } from "react";
 
 import { useDropzone } from "react-dropzone";
 import Thumbnail from "./Thumbnail";
